@@ -1,3 +1,5 @@
+<?php 
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -39,22 +41,22 @@
 </body>
 </html>
 <script type="text/javascript">
-  function sendJSON() {
-    var data = {
-        "entry.630789195": "test email from javascript",
-    };
+//   function sendJSON() {
+//     var data = {
+//         "entry.630789195": "test email from javascript",
+//     };
 
-    var json = JSON.stringify(data);
+//     var json = JSON.stringify(data);
 
-    var xhr = new XMLHttpRequest();
-    xhr.open("POST", "https://docs.google.com/forms/d/e/1FAIpQLSdsDdSUnQbO6fNZ0riQxXmSi3xb8tkVXQsCmJJx1-KIHPS_cg/formResponse");
-    xhr.setRequestHeader("Content-Type", "multipart/form-data; boundary=<calculated when request is sent>");
-    // xhr.setRequestHeader("Access-Control-Allow-Origin", "https://docs.google.com/forms/d/e/1FAIpQLSdsDdSUnQbO6fNZ0riQxXmSi3xb8tkVXQsCmJJx1-KIHPS_cg/formResponse");
-    xhr.send({
-        "entry.630789195": "test email from javascript",
-    });
-}
-sendJSON();
+//     var xhr = new XMLHttpRequest();
+//     xhr.open("POST", "https://cors-anywhere.herokuapp.com/https://docs.google.com/forms/d/e/1FAIpQLSdsDdSUnQbO6fNZ0riQxXmSi3xb8tkVXQsCmJJx1-KIHPS_cg/formResponse");
+//     xhr.setRequestHeader("Content-Type", "multipart/form-data; boundary=<calculated when request is sent>");
+//     // xhr.setRequestHeader("Access-Control-Allow-Origin", "https://docs.google.com/forms/d/e/1FAIpQLSdsDdSUnQbO6fNZ0riQxXmSi3xb8tkVXQsCmJJx1-KIHPS_cg/formResponse");
+//     xhr.send({
+//         "entry.630789195": "test email from javascript",
+//     });
+// }
+// sendJSON();
 
 // $.ajax({
 //     url: 'https://docs.google.com/forms/d/e/1FAIpQLSdsDdSUnQbO6fNZ0riQxXmSi3xb8tkVXQsCmJJx1-KIHPS_cg/formResponse',
