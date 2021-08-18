@@ -1,5 +1,6 @@
 git status
 git add .
-git commit -m "auto commit from bat file"
+set /p commitmsg= "Enter commit msg: " 
+git commit -m "%commitmsg"
 git push origin main
 pause
