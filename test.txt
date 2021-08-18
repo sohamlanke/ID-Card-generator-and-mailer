@@ -1,3 +1,0 @@
-set /p commitmsg= "Enter commit msg: " 
-echo '%commitmsg'
-pause
