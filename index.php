@@ -1,4 +1,5 @@
 <?php 
+<<<<<<< HEAD
 // $url = 'https://docs.google.com/forms/d/e/1FAIpQLSdsDdSUnQbO6fNZ0riQxXmSi3xb8tkVXQsCmJJx1-KIHPS_cg/formResponse';
 // $data = array('entry.630789195' => 'from php 1');
 
@@ -15,6 +16,9 @@
 // if ($result === FALSE) { /* Handle error */ }
 
 // var_dump($result);
+=======
+
+>>>>>>> 643266cc471c5a7878cc2cecc573d6a2fba7d2e5
 ?>
 <!DOCTYPE html>
 <html>
@@ -30,14 +34,14 @@
 <div class="container" style="padding: 10px;">
   <div class="row">
   <div class="col-6 my-auto">
-    <form>
+    <form action = "sendData.php" action="GET">
   <div class="form-group">
     <label for="exampleInputPassword1">Name</label>
-    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Name">
+    <input type="text" name="name" class="form-control" id="exampleInputPassword1" placeholder="Name">
   </div>
   <div class="form-group">
     <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <input type="email" name="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
   </div>
   <div class="form-group form-check">
