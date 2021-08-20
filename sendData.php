@@ -23,9 +23,9 @@ $options = array(
 $context  = stream_context_create($options);
 $result = file_get_contents($url, false, $context);
 if ($result === FALSE) { 
-	header("Location: form.php?status=error");
+	header("Location: result.php?status=error");
  }
- header("Location: form.php?status=success");
+ header("Location: result.php?status=success");
 
 // var_dump($result);
  ?>

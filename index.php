@@ -29,14 +29,14 @@
     <!-- navbar row -->
     <div class="col-4 text-center">
       <!-- search bar       -->
-      search bar here
+      <!-- search bar here -->
     </div>
     <div class="col-4 text-center" style="font-size: 28px; font-family: Royal King" >
       <b>CSI PCE</b>
       
     </div>
     <div class="col-4 text-center">
-       something..
+       <!-- something.. -->
     </div>
     <br>
     <br><br><br>
