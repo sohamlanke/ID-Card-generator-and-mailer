@@ -1,0 +1,27 @@
+html{
+    background-color: #e3e3e3;
+}
+
+h3{
+    text-align: center;
+    font-size:30px;
+    margin-top:150px;
+}
+
+h4{
+    text-align: center;
+}
+
+h4 a{
+    
+    color: #e67e22;
+}
+
+p{
+    text-align: center;
+}
+
+span{
+    text-align: center;
+    font-style: italic;
+}
