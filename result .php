@@ -16,7 +16,7 @@
         <p>Please find ID card attached in your mail<br><br>
           <span> For further details, please contact us for any queries.</span></p>
         
-        <br><br><h4><a href="index.php">Go back to Home Page</a></h4>
+        <!-- <br><br><h4><a href="/index.php">Go back to Home Page</a></h4> -->
     
     </body>
 
